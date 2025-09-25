@@ -1,0 +1,5 @@
+Instructions
+
+Open Terminal
+Navigate to directory where project file is 
+Type 'python sudoku5.py' to execute main script
