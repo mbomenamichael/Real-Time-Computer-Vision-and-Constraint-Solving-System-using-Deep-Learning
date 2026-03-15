@@ -66,6 +66,24 @@ It highlights how **machine learning models can be integrated into complete appl
 6. Solve the puzzle using a **backtracking algorithm**.  
 7. Overlay the solved digits onto the original video frame.
 
+## System Pipeline
+
+```
+Webcam Feed
+     ↓
+Sudoku Grid Detection (OpenCV)
+     ↓
+Perspective Transform
+     ↓
+Cell Segmentation (81 cells)
+     ↓
+Digit Recognition (CNN)
+     ↓
+Sudoku Solver (Backtracking)
+     ↓
+Solution Overlay on Video
+```
+
 ## Running the Project
 
 Install dependencies:
@@ -90,35 +108,6 @@ python sudoku5.py
 - Handle skewed or rotated Sudoku boards  
 - Improve robustness to lighting conditions  
 - Extend solver to larger puzzles (e.g., **16×16 Sudoku**)  
-
-
-
-
-
-
-
-
-
-
-
-
-System Pipeline
-
-```
-Webcam Feed
-     ↓
-Sudoku Grid Detection (OpenCV)
-     ↓
-Perspective Transform
-     ↓
-Cell Segmentation (81 cells)
-     ↓
-Digit Recognition (CNN)
-     ↓
-Sudoku Solver (Backtracking)
-     ↓
-Solution Overlay on Video
-```
 
 ## Author
 
