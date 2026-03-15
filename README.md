@@ -2,9 +2,9 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
 ![OpenCV](https://img.shields.io/badge/OpenCV-ComputerVision-green)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-# Real-Time Sudoku Solver
+# Real-Time Computer Vision and Constraint Solving System using Deep Learning
 
-A real-time Sudoku solver that detects a Sudoku grid from a live camera feed, recognises the digits using a **Convolutional Neural Network (CNN)**, solves the puzzle using a **backtracking algorithm**, and overlays the solution on the video stream.
+System that detects a Sudoku grid from a live camera feed, recognises the digits using a **Convolutional Neural Network (CNN)**, solves the puzzle using a **backtracking algorithm**, and overlays the solution on the video stream.
 
 The system combines **computer vision**, **machine learning**, and **algorithmic problem solving** to automatically interpret and solve Sudoku puzzles in real time.
 
