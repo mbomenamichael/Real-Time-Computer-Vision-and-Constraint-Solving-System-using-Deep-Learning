@@ -9,7 +9,6 @@ System that detects a Sudoku grid from a live camera feed, recognises the digits
 The system combines **computer vision**, **machine learning**, and **algorithmic problem solving** to automatically interpret and solve Sudoku puzzles in real time.
 
 ![Sudoku Solver Demo](demo/demo.gif)
----
 
 ## Features
 
